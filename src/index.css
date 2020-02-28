@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app{
+  background-color: black;
+  height: 100vh
 }
+.header{
+  background-color: blue;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home{
+  font-size: 35px;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+.outerDiv{
+  display: flex;
+  justify-content: center;
+  height: 100;
+  align-items: center;
+}
+.card{
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+background-color: white;
+width: 80%;
+height: 540px;
+margin-top: 170px;
+}
+.alignClick{
+  display: flex;
+  justify-content: space-evenly;
+}
+.Previous{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  margin: 10px
+}
+.edit{
+  height: 35px;
+  width: 60px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: serif;
+  align-self: center;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.delete{
+  height: 40px;
+  margin: 10px;
+  align-self: center;
+}
+.new{
+  height: 40px;
+  margin: 10px;
+  align-self: center;
+}
+.Next{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  margin: 10px
 }
