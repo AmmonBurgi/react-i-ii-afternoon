@@ -1,9 +1,9 @@
 .app{
-  background-color: black;
+  background-color: rgb(24, 24, 24);
   height: 100vh
 }
 .header{
-  background-color: blue;
+  background-color: rgb(65, 141, 255);
   height: 10vh;
   width: 100%;
   display: flex;
@@ -21,11 +21,70 @@
   align-items: center;
 }
 .card{
-
 background-color: white;
 width: 80%;
 height: 540px;
 margin-top: 170px;
+}
+
+.id{
+font-size: 50px;
+font-family: sans-serif;
+display: flex;
+justify-content: space-between;
+margin: 15px
+}
+.bold {
+  font-weight: bolder;
+  margin-right: 10px
+}
+.pTag{
+  text-decoration: underline;
+  text-decoration-color:rgb(65, 141, 255);
+  margin: 30px;
+  margin-top: 50px
+}
+
+.from{
+display: flex;
+flex-direction: row;
+font-size: 30px;
+margin-left: 40px;
+margin-bottom: 10px
+}
+.job{
+font-size: 30px;
+display: flex;
+flex-direction: row;
+margin-left: 40px;
+margin-bottom: 10px
+}
+.employer{
+font-size: 30px;
+display: flex;
+flex-direction: row;
+margin-left: 40px;
+margin-bottom: 35px;
+}
+.favMovie{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+
+}
+.ol {
+  margin-left: 40px;
+  font-size: 20px
+}
+.top-list{
+margin-left: 10px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.li {
+margin-left: 10px;
+margin-bottom: 10px;
 }
 .alignClick{
   display: flex;
@@ -49,19 +108,34 @@ margin-top: 170px;
   font-family: serif;
   align-self: center;
   border-radius: 10px;
-  background-color: blue;
+  background-color:rgb(65, 141, 255);
   color: white;
   border: none;
 }
 .delete{
-  height: 40px;
+  height: 35px;
+  width: 60px;
   margin: 10px;
+  font-size: 18px;
+  font-family: serif;
   align-self: center;
+  border-radius: 10px;
+  background-color: rgb(65, 141, 255);
+  color: white;
+  border: none;
 }
 .new{
-  height: 40px;
+  height: 35px;
+  width: 60px;
   margin: 10px;
+  font-size: 18px;
+  font-family: serif;
   align-self: center;
+  border-radius: 10px;
+  background-color:rgb(65, 141, 255);
+  color: white;
+  border: none;
+  
 }
 .Next{
   width: 100px;
